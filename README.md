@@ -7,7 +7,7 @@ O armazenamento dos parâmetros necessários para chamada da função undistort(
 Ferramentas utilizadas: OpenCV 3.4.5, SQLite e Android Studio 3.5.2. 
 
 Principais funções utilizadas pelo programa: 
-  findAndDrawPoints(), essa função encontra os pontos interiores de um tabuleiro de xadrez e os desenha na tela para o usuário;
+  findAndDrawPoints(), essa função encontra os pontos interiores de um tabuleiro de xadrez e os desenha na tela para o usuário;/n
   takeSnapshot(), essa função realiza o armazenamento das informações necessárias para a chamada da função calibrateCamera();
   calibrateCamera(), essa função retorna os coeficientes de distorção obtidos por meio dos valores coletados pelos snapshots. Valores como o coeficiente de distância entre os pontos espaciais e o matriz de distorção ìntrinsica aquela lente;
   calculaBrancos(), essa função utiliza as dimensões do tabuleiro para calcular a porcentagem de pixels brancos após a segmentação da imagem obtida pela câmera;
